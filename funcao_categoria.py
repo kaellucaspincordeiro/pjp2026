@@ -8,6 +8,3 @@ def definir_categoria(codigo_produto):
         return "Comida/Salgado"
     else:
         return "Código indefinido para categoria"
-    
-categoria = definir_categoria("comida")
-print(categoria)
